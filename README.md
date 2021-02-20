@@ -31,9 +31,10 @@ The PANN model is in Pytorch, the rest of models are in Tensorflow
 * Soft Macro F1 loss for EfficientNet + self attention model
 * Custom Binary Cross-entropy loss with auxilary loss on framewise predictions for PANN model
 
-# Validation metrics
-* Label-weighted label-ranking average precision
-* ROC AUC
+# Validations
+* Multi-label Stratified K-Fold on each species
+* Label-weighted label-ranking average precision metrics
+* ROC AUC metrics
 
 # Training Techniques
 * Schedule learning rate using cosine Annealing with warmpups and restarts
