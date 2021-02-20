@@ -17,12 +17,13 @@ The PANN model is in Pytorch, the rest of models are in Tensorflow
 * 20 models, 5 folds each from the above 4 architectures
 * Combine results using geometric means of predictions
 
-# Augmentations used
+# Augmentations
 * Gaussian noise and Gaussian SNR
 * Random volume gain
+* Random brightness
 * Horizontal and vertical flips (only for Resnet34 and Resnet50 models)
-* Mix-up
-* Random shift
+* Single batch self mix-up
+* Random time shift
 * Spec-augmentation
 
 # Loss functions
