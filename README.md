@@ -1,5 +1,6 @@
 # kaggle-rfcx
 Notebooks and codes for the Kaggle RFCX competition: https://www.kaggle.com/c/rfcx-species-audio-detection
+The PANN model is in Pytorch, the rest of models are in Tensorflow
 
 # Preprocessing
 * Crop the full length audio clip into smaller clips
